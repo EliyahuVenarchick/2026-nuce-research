@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="1" name="Fuel Cell" material="0" region="-1" universe="1"/>
+  <cell id="2" name="Moderator Cell" material="1" region="1" universe="1"/>
+  <cell id="3" name="Root Cell" fill="1" region="2 -3 4 -5" universe="1"/>
+  <surface id="1" name="Fuel Outer Radius" type="z-cylinder" coeffs="0.0 0.0 0.5"/>
+  <surface id="2" name="minimum x" type="x-plane" boundary="reflective" coeffs="-0.5"/>
+  <surface id="3" name="maximum x" type="x-plane" boundary="reflective" coeffs="0.5"/>
+  <surface id="4" name="minimum y" type="y-plane" boundary="reflective" coeffs="-0.5"/>
+  <surface id="5" name="maximum y" type="y-plane" boundary="reflective" coeffs="0.5"/>
+</geometry>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <cross_sections>/home/n4sa_fan/openmc/Cross_Section_Libraries/endfb-viii.1-hdf5/cross_sections.xml</cross_sections>
+  <material id="0" name="UO2" depletable="true" temperature="300">
+    <density value="10.38" units="g/cm3"/>
+    <nuclide name="U234" ao="4.098e-05"/>
+    <nuclide name="U235" ao="0.004605"/>
+    <nuclide name="U236" ao="2.118e-05"/>
+    <nuclide name="U238" ao="0.01856"/>
+    <nuclide name="O16" ao="1.9952412"/>
+    <nuclide name="O17" ao="0.000758"/>
+    <nuclide name="O18" ao="0.0040008"/>
+  </material>
+  <material id="16" name="Be2C" temperature="300">
+    <density value="1.9" units="g/cm3"/>
+    <nuclide name="Be9" ao="2.0"/>
+    <nuclide name="C12" ao="0.988922"/>
+    <nuclide name="C13" ao="0.011078"/>
+    <sab name="c_Be_in_Be2C"/>
+    <sab name="c_C_in_Be2C"/>
+  </material>
+</materials>
